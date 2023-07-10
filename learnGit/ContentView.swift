@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             Button("Show Modal") {
                 self.isPresented = true
-            }.sheet(isPresented: $isPresented) {
+            }.foregroundColor(.green).fontWeight(.bold).sheet(isPresented: $isPresented) {
                 ModalView()
             }
             .navigationTitle("Rico Oktananda")
