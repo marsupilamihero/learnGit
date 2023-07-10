@@ -15,6 +15,7 @@ struct ContentView: View {
                 Text("Aku sayang Tuhan")
                 Text("Tuhan juga sayang dengan Aleng")
                 Text("Semoga Aleng tetap bisa konsisten belajar coding")
+                Text("Harus tetap Konsisten")
             }.foregroundColor(.green).fontWeight(.regular)
             .navigationTitle("XCode and Git")
         }
