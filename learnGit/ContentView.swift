@@ -13,8 +13,8 @@ struct ContentView: View {
         NavigationView {
             NavigationLink(destination: ModalView()) {
                 Text("Go Next")
-            }
-            .navigationTitle("Rico Oktananda")
+            }.foregroundColor(.green)
+            .navigationTitle("XCode and Git")
         }
     }
     
