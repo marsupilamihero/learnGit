@@ -12,10 +12,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             NavigationLink(destination: ModalView()) {
-                Text("Go Next")
-                Text("Go")
-                Text("Go Next")
-            }.foregroundColor(.green).fontWeight(.bold)
+                Text("Aku sayang Tuhan")
+                Text("Tuhan juga sayang dengan Aleng")
+                Text("Semoga Aleng tetap bisa konsisten belajar coding")
+            }.foregroundColor(.green).fontWeight(.regular)
             .navigationTitle("XCode and Git")
         }
     }
